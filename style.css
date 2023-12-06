@@ -411,6 +411,11 @@ footer li img {
             .logo img{
                 width: 80px;
             }
+
+            .main a {
+                font-size: 10px;
+                
+            }
     
         }
 
