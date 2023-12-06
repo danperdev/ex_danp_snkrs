@@ -421,8 +421,27 @@ footer li img {
             #menu-icon {
                 margin-left: 10px;
             }
+        
     
         }
+
+@media screen and (max-width: 390px) {
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 260px;
+        height: 28vh;
+        background: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+    
+}
 
 /*
 
