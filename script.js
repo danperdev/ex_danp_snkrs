@@ -7,11 +7,12 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#carousel-imagens').slick( {
         autoplay: true,
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 600,
         fade: true,
         cssEase: 'linear',
+        arrows: false,
     })
 })
 
