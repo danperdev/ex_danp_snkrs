@@ -320,7 +320,7 @@ footer li img {
     .navbar {
         position: absolute;
         top: 100%;
-        right: -100%;
+        right: 100%;
         width: 260px;
         height: 20vh;
         background: var(--main-color);
@@ -329,6 +329,7 @@ footer li img {
         justify-content: flex-start;
         border-radius: 10px;
         transition: all .50s ease;
+        box-shadow: -7px 8px 9px rgba(0,0,0,.2), inset 0 0;
     }
 
     .navbar a {
